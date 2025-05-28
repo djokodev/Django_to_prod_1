@@ -1,6 +1,6 @@
 # Parcours d'Apprentissage Déploiement Django
 
-Bienvenue, Ce projet sert de **fil rouge** pour un apprentissage pratique et progressif de la mise en production d'applications Django. L'objectif est de maîtriser la containerisation avec Docker, la configuration d'un proxy Nginx, l'intégration de services comme PostgreSQL et Celery, et l'automatisation du déploiement via un pipeline CI/CD avec GitHub Actions.
+Bienvenue, Ce projet sert de fil rouge pour un apprentissage pratique et progressif de la mise en production d'applications Django. L'objectif est de maîtriser la containerisation avec Docker, la configuration d'un proxy Nginx, l'intégration de services comme PostgreSQL et Celery, et l'automatisation du déploiement via un pipeline CI/CD avec GitHub Actions.
 
 
 ## Contexte et Objectif Global
