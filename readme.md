@@ -17,12 +17,40 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre
 *   [Docker Compose](https://docs.docker.com/compose/install/)
 
 
-## Technologies Utilisées (Phase 1)
+## Technologies Utilisées
 
 *   **Framework Backend :** Python, Django
 *   **Base de données :** SQLite, PostgresSql
-*   **Containerisation :** Docker, Docker Compose
+*   **Tâches Asynchrones  :** Celery, Celery Beat 
+*   **Containerisation :** Docker, Docker Compose\
 
+
+## Installation & Lancement du Projet
+
+Voici les étapes pour cloner, configurer et lancer ce projet :
+
+```bash
+# 1. Cloner le dépôt
+git clone https://github.com/djokodev/django_to_prod.git
+cd django_to_prod
+```
+
+# 2. Variables d'environnement
+
+Crée un fichier ```.env``` à la racine du projet, puis :
+
+- Ouvre le fichier ```.env.example```
+
+- Copie tout son contenu
+
+- Colle-le dans le fichier ```.env```
+
+Remplace les valeurs par défaut par les tiennes
+
+
+# 3. Lancer l’application avec Docker Compose
+docker-compose up --build -d
+```
 
 ## Feuille de Route Détaillée (Étapes d'Apprentissage Prévues)
 
@@ -49,4 +77,4 @@ Ce projet évoluera en suivant ces étapes :
 
 Ce projet est un voyage d'apprentissage. Suivez les commits pour voir l'évolution 😉
 
-Développé par djokodev 😊.
+By djokodev 😊.
