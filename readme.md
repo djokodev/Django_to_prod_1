@@ -49,31 +49,9 @@ Remplace les valeurs par défaut par les tiennes
 
 
 # 3. Lancer l’application avec Docker Compose
+```bash
 docker-compose up --build -d
 ```
-
-## Feuille de Route Détaillée (Étapes d'Apprentissage Prévues)
-
-Ce projet évoluera en suivant ces étapes :
-
-1.  **Projet simple (sans base de données externe, juste Django et SQLite)**
-    *   Objectif : Maîtriser la configuration Docker et le pipeline de base.
-
-2.  **Projet avec base de données PostgreSQL**
-    *   Objectif : Apprendre à composer plusieurs services (application + base de données) avec Docker Compose.
-
-3.  **Projet avec des fichiers médias**
-    *   Objectif : Configurer la gestion et le service des fichiers médias (uploads utilisateurs) directement sur le serveur, en utilisant des volumes Docker et  Nginx pour les servir.
-
-4.  **Projet avec Celery**
-    *   Objectif : Comprendre le fonctionnement de Celery pour les tâches asynchrones et Celery Beat pour les tâches planifiées, et les intégrer dans l'environnement Docker Compose.
-
-5.  **Mise en Production Complète et Automatisation**
-    *   Installation de Docker sur le VPS.
-    *   Configuration du proxy Nginx avec Docker Compose sur le serveur.
-    *   Pointer le nom de domaine vers le serveur.
-    *   Créer un pipeline GitHub Actions pour le build et le déploiement automatiques.
----
 
 Ce projet est un voyage d'apprentissage. Suivez les commits pour voir l'évolution 😉
 
