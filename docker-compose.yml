@@ -2,6 +2,7 @@ services:
   web:
     build: .
     container_name: django_to_prod_1
+    image: "ghcr.io/djokodev/django_to_prod:latest"
     ports:
       - "8000:8000"
     env_file:

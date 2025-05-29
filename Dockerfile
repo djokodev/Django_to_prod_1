@@ -27,4 +27,4 @@ USER appuser
 EXPOSE 8000
 
 # Démarre le serveur avec gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "--timeout", "90", "django_to_prod_1.wsgi:application"]
+# CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "--timeout", "90", "django_to_prod_1.wsgi:application"]
