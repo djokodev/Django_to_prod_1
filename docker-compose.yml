@@ -9,4 +9,4 @@ services:
     # volumes:
     #   - .:/app
     command: > 
-      gunicorn --bind 0.0.0.0:8000 --workers 3 django_to_prod_1.wsgi:application
+      gunicorn --bind 0.0.0.0:8000 --workers 3 --timeout 90 --log-level debug django_to_prod_1.wsgi:application
